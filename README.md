@@ -4,6 +4,16 @@ A macOS menu bar utility. Press a hotkey, a translucent panel appears in the bot
 
 Nothing is sent anywhere. No accounts, no history, no Dock icon.
 
+## Demo
+
+`⌥ Space`, type, done. Light appearance over a browser window:
+
+![Sidelight panel over a browser window](docs/demo-browser.png)
+
+`⌃⌥ ↑`, type a note, Return. The note is painted onto the wallpaper and the screen locks, so it shows on the lock screen until you come back. Rendered here over a plain gradient; on your Mac it's your own wallpaper.
+
+![Away note on the lock screen wallpaper](docs/demo-lock-screen.png)
+
 ## Shortcuts
 
 Option is Sidelight's key. Add Control and point.
