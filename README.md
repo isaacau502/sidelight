@@ -1,5 +1,7 @@
 # Sidelight
 
+Chatting with your seat neighbors but want to be more discreet than whispering?
+
 A macOS menu bar utility. Press a hotkey, a translucent panel appears in the bottom corner of the screen, whatever you type renders in large auto-scaling text, press Esc and it's gone. It is a sign you hold up to the person sitting next to you.
 
 Nothing is sent anywhere. No accounts, no history, no Dock icon.
