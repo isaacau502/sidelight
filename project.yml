@@ -1,0 +1,36 @@
+name: Sidelight
+options:
+  bundleIdPrefix: com.isaac
+  deploymentTarget:
+    macOS: "14.0"
+  xcodeVersion: "27.0"
+  createIntermediateGroups: true
+packages:
+  KeyboardShortcuts:
+    url: https://github.com/sindresorhus/KeyboardShortcuts
+    from: 1.9.4
+targets:
+  Sidelight:
+    type: application
+    platform: macOS
+    sources:
+      - path: Sidelight
+        excludes:
+          - Info.plist
+          - Sidelight.entitlements
+    dependencies:
+      - package: KeyboardShortcuts
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.isaac.Sidelight
+        PRODUCT_NAME: Sidelight
+        INFOPLIST_FILE: Sidelight/Info.plist
+        GENERATE_INFOPLIST_FILE: NO
+        CODE_SIGN_ENTITLEMENTS: Sidelight/Sidelight.entitlements
+        ENABLE_APP_SANDBOX: YES
+        CODE_SIGN_STYLE: Automatic
+        DEVELOPMENT_TEAM: 68VK3X3U4D
+        SWIFT_VERSION: "5.0"
+        MACOSX_DEPLOYMENT_TARGET: "14.0"
+        ENABLE_HARDENED_RUNTIME: YES
+        COMBINE_HIDPI_IMAGES: YES

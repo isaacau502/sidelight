@@ -1,0 +1,384 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4EA1EB02B86A6C2D03A5352D /* KeyboardShortcuts in Frameworks */ = {isa = PBXBuildFile; productRef = 216C3237DA626C14359D42C3 /* KeyboardShortcuts */; };
+		5999DD40AF2C54867998CA8E /* SidelightPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8F5A91562D1F1480BA1434 /* SidelightPanel.swift */; };
+		5A39106312688986AE508761 /* SidelightTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9E53609DF67E805C63BBF7 /* SidelightTextView.swift */; };
+		8EE5F7E91995D417B6885199 /* TextFitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A870FFA4F0F86912012BD866 /* TextFitter.swift */; };
+		9D5C708943C4AA7EE34AEF3F /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8D501ADACA855DFED49DAC /* Settings.swift */; };
+		A0617CFDA68B8D1F19D583B3 /* StatusMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A4FAD4096255497159338A /* StatusMenu.swift */; };
+		ADC8247C5AAC787B408909B5 /* AwayNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040EEAE360AEDA1F1186059C /* AwayNote.swift */; };
+		EB21BF81F38E68B807915256 /* SidelightApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73F9512A8EC4810879CBDF4 /* SidelightApp.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		040EEAE360AEDA1F1186059C /* AwayNote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwayNote.swift; sourceTree = "<group>"; };
+		4F8D501ADACA855DFED49DAC /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		631DE5041BB3DAEE7898386E /* Sidelight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sidelight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B9E53609DF67E805C63BBF7 /* SidelightTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidelightTextView.swift; sourceTree = "<group>"; };
+		98A4FAD4096255497159338A /* StatusMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusMenu.swift; sourceTree = "<group>"; };
+		A870FFA4F0F86912012BD866 /* TextFitter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFitter.swift; sourceTree = "<group>"; };
+		B73F9512A8EC4810879CBDF4 /* SidelightApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidelightApp.swift; sourceTree = "<group>"; };
+		FD8F5A91562D1F1480BA1434 /* SidelightPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidelightPanel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33D95E0B120A9D77CCB842FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EA1EB02B86A6C2D03A5352D /* KeyboardShortcuts in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		233355006AA7024B0896B90D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				631DE5041BB3DAEE7898386E /* Sidelight.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91FDC0F62A45C65AA10AD5F5 /* Sidelight */ = {
+			isa = PBXGroup;
+			children = (
+				4F8D501ADACA855DFED49DAC /* Settings.swift */,
+				A14C51D75DBFF794065DB5F3 /* App */,
+				CDBEBE7AE52AC053445CF6CC /* Away */,
+				A0A1F8C22C856CA64299D772 /* Panel */,
+			);
+			path = Sidelight;
+			sourceTree = "<group>";
+		};
+		A0A1F8C22C856CA64299D772 /* Panel */ = {
+			isa = PBXGroup;
+			children = (
+				FD8F5A91562D1F1480BA1434 /* SidelightPanel.swift */,
+				6B9E53609DF67E805C63BBF7 /* SidelightTextView.swift */,
+				A870FFA4F0F86912012BD866 /* TextFitter.swift */,
+			);
+			path = Panel;
+			sourceTree = "<group>";
+		};
+		A14C51D75DBFF794065DB5F3 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				B73F9512A8EC4810879CBDF4 /* SidelightApp.swift */,
+				98A4FAD4096255497159338A /* StatusMenu.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		CDBEBE7AE52AC053445CF6CC /* Away */ = {
+			isa = PBXGroup;
+			children = (
+				040EEAE360AEDA1F1186059C /* AwayNote.swift */,
+			);
+			path = Away;
+			sourceTree = "<group>";
+		};
+		DC55AE815C2464AECCE31896 = {
+			isa = PBXGroup;
+			children = (
+				91FDC0F62A45C65AA10AD5F5 /* Sidelight */,
+				233355006AA7024B0896B90D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0140F0EC66FCBDCED8E84A9C /* Sidelight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD0EF1B1A41A4B2348D0A836 /* Build configuration list for PBXNativeTarget "Sidelight" */;
+			buildPhases = (
+				A319A33168FD1813E20113EB /* Sources */,
+				33D95E0B120A9D77CCB842FE /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sidelight;
+			packageProductDependencies = (
+				216C3237DA626C14359D42C3 /* KeyboardShortcuts */,
+			);
+			productName = Sidelight;
+			productReference = 631DE5041BB3DAEE7898386E /* Sidelight.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A9EC8A5EA0B6F11DF045136 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					0140F0EC66FCBDCED8E84A9C = {
+						DevelopmentTeam = 68VK3X3U4D;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 46A6C41659548B259A6718CB /* Build configuration list for PBXProject "Sidelight" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = DC55AE815C2464AECCE31896;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				D6ADD5999276BDF84E775452 /* XCRemoteSwiftPackageReference "KeyboardShortcuts" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 233355006AA7024B0896B90D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0140F0EC66FCBDCED8E84A9C /* Sidelight */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A319A33168FD1813E20113EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADC8247C5AAC787B408909B5 /* AwayNote.swift in Sources */,
+				9D5C708943C4AA7EE34AEF3F /* Settings.swift in Sources */,
+				EB21BF81F38E68B807915256 /* SidelightApp.swift in Sources */,
+				5999DD40AF2C54867998CA8E /* SidelightPanel.swift in Sources */,
+				5A39106312688986AE508761 /* SidelightTextView.swift in Sources */,
+				A0617CFDA68B8D1F19D583B3 /* StatusMenu.swift in Sources */,
+				8EE5F7E91995D417B6885199 /* TextFitter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		035F4233C3B53BC82B72EE03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Sidelight/Sidelight.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 68VK3X3U4D;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Sidelight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.isaac.Sidelight;
+				PRODUCT_NAME = Sidelight;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		29BEBBC5F16D3037CE83E5D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		B0525F9D426883001F48BFBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Sidelight/Sidelight.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 68VK3X3U4D;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Sidelight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.isaac.Sidelight;
+				PRODUCT_NAME = Sidelight;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E574628FA893A7DB4FB440DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46A6C41659548B259A6718CB /* Build configuration list for PBXProject "Sidelight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E574628FA893A7DB4FB440DF /* Debug */,
+				29BEBBC5F16D3037CE83E5D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AD0EF1B1A41A4B2348D0A836 /* Build configuration list for PBXNativeTarget "Sidelight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				035F4233C3B53BC82B72EE03 /* Debug */,
+				B0525F9D426883001F48BFBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D6ADD5999276BDF84E775452 /* XCRemoteSwiftPackageReference "KeyboardShortcuts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sindresorhus/KeyboardShortcuts";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.9.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		216C3237DA626C14359D42C3 /* KeyboardShortcuts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D6ADD5999276BDF84E775452 /* XCRemoteSwiftPackageReference "KeyboardShortcuts" */;
+			productName = KeyboardShortcuts;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 9A9EC8A5EA0B6F11DF045136 /* Project object */;
+}
