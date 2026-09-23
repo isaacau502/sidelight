@@ -4,9 +4,9 @@ import KeyboardShortcuts
 extension KeyboardShortcuts.Name {
     /// Toggle the panel in the last-used corner.
     static let togglePanel = Self("togglePanel", default: .init(.space, modifiers: [.option]))
-    /// Open (or move) the panel in the bottom-left corner.
+    /// Open (or move) the panel in the top-left corner.
     static let showLeft = Self("showLeft", default: .init(.leftArrow, modifiers: [.control, .option]))
-    /// Open (or move) the panel in the bottom-right corner.
+    /// Open (or move) the panel in the top-right corner.
     static let showRight = Self("showRight", default: .init(.rightArrow, modifiers: [.control, .option]))
     /// Open the panel in away mode: Return paints the note on the lock screen and locks.
     static let awayNote = Self("awayNote", default: .init(.upArrow, modifiers: [.control, .option]))

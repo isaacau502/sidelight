@@ -28,7 +28,7 @@ final class StatusMenu: NSObject, NSMenuDelegate {
         super.init()
 
         if let button = statusItem.button {
-            let image = NSImage(systemSymbolName: "rectangle.inset.bottomright.filled",
+            let image = NSImage(systemSymbolName: "rectangle.inset.topright.filled",
                                 accessibilityDescription: "Sidelight")
             image?.isTemplate = true
             button.image = image
@@ -57,8 +57,8 @@ final class StatusMenu: NSObject, NSMenuDelegate {
         let cornerItem = NSMenuItem(title: "Corner", action: nil, keyEquivalent: "")
         let cornerMenu = NSMenu(title: "Corner")
         let corners: [(String, Corner, KeyboardShortcuts.Name)] = [
-            ("Bottom right", .right, .showRight),
-            ("Bottom left", .left, .showLeft)
+            ("Top right", .right, .showRight),
+            ("Top left", .left, .showLeft)
         ]
         for (title, corner, shortcut) in corners {
             let item = NSMenuItem(title: title, action: #selector(cornerAction(_:)), keyEquivalent: "")

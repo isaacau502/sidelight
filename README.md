@@ -2,7 +2,7 @@
 
 Chatting with your seat neighbors but want to be more discreet than whispering?
 
-A macOS menu bar utility. Press a hotkey, a translucent panel appears in the bottom corner of the screen, whatever you type renders in large auto-scaling text, press Esc and it's gone. It is a sign you hold up to the person sitting next to you.
+A macOS menu bar utility. Press a hotkey, a translucent panel appears in the top corner of the screen, whatever you type renders in large auto-scaling text, press Esc and it's gone. It is a sign you hold up to the person sitting next to you.
 
 Nothing is sent anywhere. No accounts, no history, no Dock icon.
 
@@ -23,7 +23,7 @@ Option is Sidelight's key. Add Control and point.
 | Keys | From anywhere |
 |---|---|
 | `⌥ Space` | Toggle the panel in the last-used corner |
-| `⌃⌥ ←` / `⌃⌥ →` | Open the panel bottom-left / bottom-right, or slide it there |
+| `⌃⌥ ←` / `⌃⌥ →` | Open the panel top-left / top-right, or slide it there |
 | `⌃⌥ ↑` | Away note (see below) |
 
 | Keys | Inside the panel |
@@ -47,7 +47,7 @@ Two things to know:
 ## Menu bar
 
 - Show Sidelight, Away Note…
-- Corner: Bottom right / Bottom left
+- Corner: Top right / Top left
 - Appearance: Dark / Light
 - Hotkeys…
 - Launch at login

@@ -123,8 +123,8 @@ final class SidelightPanel: NSPanel {
 
     // MARK: - Position
 
-    /// Places the panel 16 pt from the bottom and from the chosen side of the main screen's
-    /// visible frame (which excludes the menu bar and the Dock).
+    /// Places the panel 16 pt below the menu bar and 16 pt in from the chosen side of the
+    /// main screen's visible frame (which excludes the menu bar and the Dock).
     func reposition() {
         guard let screen = NSScreen.main ?? NSScreen.screens.first else { return }
         let visible = screen.visibleFrame
@@ -133,7 +133,7 @@ final class SidelightPanel: NSPanel {
         case .right: x = visible.maxX - Self.screenInset - Self.size.width
         case .left:  x = visible.minX + Self.screenInset
         }
-        let y = visible.minY + Self.screenInset
+        let y = visible.maxY - Self.screenInset - Self.size.height
         setFrameOrigin(NSPoint(x: x, y: y))
     }
 
