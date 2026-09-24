@@ -70,3 +70,4 @@ xcuserdata/
 .swiftpm/
 
 .DS_Store
+dist/

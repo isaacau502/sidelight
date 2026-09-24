@@ -50,7 +50,7 @@ Two things to know:
 - Corner: Top right / Top left
 - Appearance: Dark / Light
 - Hotkeys…
-- Launch at login
+- Launch at login (on by default after the first run)
 - Quit
 
 ## Building

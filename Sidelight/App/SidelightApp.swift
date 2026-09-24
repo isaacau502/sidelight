@@ -1,5 +1,6 @@
 import AppKit
 import KeyboardShortcuts
+import ServiceManagement
 
 extension KeyboardShortcuts.Name {
     /// Toggle the panel in the last-used corner.
@@ -25,8 +26,22 @@ final class SidelightApp: NSObject, NSApplicationDelegate {
         app.run()
     }
 
+    /// Turns on "Launch at login" the first time the app runs. The menu item can turn it
+    /// off afterwards; this never re-enables it once the user has made a choice.
+    private func registerLaunchAtLoginOnFirstRun() {
+        let key = "launchAtLoginConfigured"
+        guard !UserDefaults.standard.bool(forKey: key) else { return }
+        UserDefaults.standard.set(true, forKey: key)
+        do {
+            try SMAppService.mainApp.register()
+        } catch {
+            NSLog("Launch at login registration failed: \(error)")
+        }
+    }
+
     func applicationDidFinishLaunching(_ notification: Notification) {
         NSApp.setActivationPolicy(.accessory)
+        registerLaunchAtLoginOnFirstRun()
 
         let panel = SidelightPanel()
         self.panel = panel
