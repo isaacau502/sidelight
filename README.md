@@ -53,6 +53,18 @@ Two things to know:
 - Launch at login (on by default after the first run)
 - Quit
 
+## Install
+
+Download `Sidelight-x.y.z.zip` from the [latest release](https://github.com/isaacau502/sidelight/releases/latest), unzip, and move `Sidelight.app` to Applications.
+
+The app is signed with a development certificate and not notarized, so the first time you open it macOS will refuse. Right-click the app and choose **Open**, or run:
+
+```
+xattr -dr com.apple.quarantine /Applications/Sidelight.app
+```
+
+After that it opens normally. It adds itself to your login items on first run; turn that off from the menu bar item if you don't want it.
+
 ## Building
 
 Requires Xcode 16 or later and [xcodegen](https://github.com/yonaskolb/XcodeGen). The project file is generated from `project.yml`.
